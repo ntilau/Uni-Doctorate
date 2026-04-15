@@ -12,7 +12,7 @@
 MS_TEX      = pdflatex
 MS_TEXFLAGS ?= -interaction=nonstopmode -file-line-error
 MS_BIB      ?=
-MS_FILE     ?= thesis
+MS_FILE     ?= ln_diss
 
 # --- Presentation Build Configuration ---
 # PR_TEX: LaTeX engine (default: pdflatex, beamer-compatible)
@@ -95,3 +95,4 @@ help:
 	@echo "  make clean                       # Clean all temporary files"
 	@echo "  make MS_BIB=biber manuscript     # Build with biber bibliography"
 	@echo "  make help                        # Show this help message"
+
