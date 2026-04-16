@@ -12,7 +12,7 @@
 MS_TEX      = pdflatex
 MS_TEXFLAGS ?= -interaction=nonstopmode -file-line-error
 MS_BIB      ?=
-MS_FILE     ?= ln_diss
+MS_FILE     ?= dissertation
 
 # --- Presentation Build Configuration ---
 # PR_TEX: LaTeX engine (default: pdflatex, beamer-compatible)

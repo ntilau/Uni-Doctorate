@@ -23,6 +23,7 @@
 *.lof
 *.log
 *.lot
+*.loa
 *.lpr
 *.nav
 *.out
@@ -33,6 +34,7 @@
 *.toc
 *.vrb
 *.xdv
+*-blx.bib
 
 # Latexmk and related caches
 *.latexmk

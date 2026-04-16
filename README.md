@@ -1,6 +1,6 @@
-# Univ-Master
+# Univ-Doctorate
 
-LaTeX sources for a Master's thesis manuscript and its defense presentation.
+LaTeX sources for a Doctorate's dissertation manuscript and its defense presentation.
 
 ## Repository Layout
 
@@ -22,13 +22,12 @@ manuscript/          Main thesis document
 │   ├── ch2/         Chapter 2 figures (PDF)
 │   ├── ch3/         Chapter 3 figures (PDF)
 │   └── *.pdf        Logos and shared resources
-└── [thesis.pdf](manuscript/thesis.pdf) Generated output
+└── [dissertation.pdf](manuscript/dissertation.pdf) Generated output
 
 presentation/        Defense presentation (Beamer slides)
 ├── defense.tex      Entry point for Beamer
 ├── custom.tex       Beamer theme and package customization
 ├── img/             Presentation images and diagrams
-├── movscan.mp4      Embedded video animation
 └── [defense.pdf](presentation/defense.pdf) Generated output
 
 Makefile             Build orchestration (supports make all, manuscript, presentation, clean, distclean, help)
