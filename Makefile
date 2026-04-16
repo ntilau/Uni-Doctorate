@@ -29,7 +29,7 @@ PR_FILE     ?= defense
 
 # LaTeX auxiliary files to remove during clean
 # Includes: cross-references, bibliography, font database, logs, etc.
-CLEAN_EXTS = *.aux *.bcf *.blg *.bbl *.brf *.fdb_latexmk *.fls *.lof *.log *.lot *.lpr *.nav *.out *.run.xml *.snm *.toc *.vrb *.synctex.gz
+CLEAN_EXTS = *.aux *-blx.bib *.bcf *.blg *.bbl *.brf *.fdb_latexmk *.fls *.loa *.lof *.log *.lot *.lpr *.nav *.out *.run.xml *.snm *.toc *.vrb *.synctex.gz
 
 .SUFFIXES: .aux .pdf .tex
 .PHONY: all manuscript presentation clean distclean help
