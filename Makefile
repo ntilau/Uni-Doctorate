@@ -11,7 +11,7 @@
 # MS_FILE: Main LaTeX source file (default: thesis)
 MS_TEX      = pdflatex
 MS_TEXFLAGS ?= -interaction=nonstopmode -file-line-error
-MS_BIB      ?=
+MS_BIB      ?= bibtex
 MS_FILE     ?= dissertation
 
 # --- Presentation Build Configuration ---
