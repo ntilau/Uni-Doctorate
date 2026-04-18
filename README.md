@@ -1,27 +1,27 @@
 # Univ-Doctorate
 
-LaTeX sources for a Doctorate's dissertation manuscript and its defense presentation.
+LaTeX sources for a Doctorate's dissertation and its defense presentation.
 
 ## Repository Layout
 
 ```
-manuscript/          Main thesis document
-├── thesis.tex       Entry point (includes all chapters via \include)
-├── title.tex        Title page
-├── abstract.tex     Abstract
+manuscript/            Main dissertation document
+├── dissertation.tex   Entry point (includes all chapters via \include)
+├── title.tex          Title page
+├── abstract.tex       Abstract
 ├── acknowledgements.tex
 ├── introduction.tex
-├── chapter1.tex     Content chapters
+├── chapter1.tex       Content chapters
 ├── chapter2.tex
 ├── chapter3.tex
 ├── conclusion.tex
-├── bibliography.tex Bibliography definitions
-├── custom.tex       Custom commands and package configuration
-├── img/             Images organized by chapter
-│   ├── ch1/         Chapter 1 figures (PDF)
-│   ├── ch2/         Chapter 2 figures (PDF)
-│   ├── ch3/         Chapter 3 figures (PDF)
-│   └── *.pdf        Logos and shared resources
+├── bibliography.tex   Bibliography definitions
+├── custom.tex         Custom commands and package configuration
+├── img/               Images organized by chapter
+│   ├── ch1/           Chapter 1 figures (PDF)
+│   ├── ch2/           Chapter 2 figures (PDF)
+│   ├── ch3/           Chapter 3 figures (PDF)
+│   └── *.pdf          Logos and shared resources
 └── [dissertation.pdf](manuscript/dissertation.pdf) Generated output
 
 presentation/        Defense presentation (Beamer slides)
@@ -71,7 +71,7 @@ make presentation
 
 View results:
 
-- [manuscript/thesis.pdf](manuscript/thesis.pdf) - Thesis PDF
+- [manuscript/dissertation.pdf](manuscript/dissertation.pdf) - Thesis PDF
 - [presentation/defense.pdf](presentation/defense.pdf) - Presentation PDF
 
 ## Build Process
@@ -149,7 +149,7 @@ make help
 
 ### Manuscript Organization
 
-The main thesis file (`manuscript/thesis.tex`) uses `\include` commands to import chapters modularly:
+The main dissertation file (`manuscript/dissertation.tex`) uses `\include` commands to import chapters modularly:
 
 ```latex
 \include{title}
@@ -202,5 +202,5 @@ Images are organized by chapter to maintain clarity:
 
 Generated files:
 
-- [manuscript/thesis.pdf](manuscript/thesis.pdf) - Full thesis document
+- [manuscript/dissertation.pdf](manuscript/dissertation.pdf) - Full dissertation document
 - [presentation/defense.pdf](presentation/defense.pdf) - Presentation slides
